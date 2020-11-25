@@ -1,3 +1,7 @@
+#Isaiah Smith
+#Computers in Geosciences
+#Week 3 Homework
+#24 November 2020
 
 # Question 1 --------------------------------------------------------------
 
@@ -32,7 +36,7 @@ height_error
 
 difference_function<-function(v1,v2){
   
-  abs(v1v2)
+  abs(v1-v2)
   
 }
 
@@ -90,6 +94,7 @@ scatter.smooth(distance_from_station, moments,
                xlab = "Distance from Station (km)", 
                ylab = "Seismic Moment (Nm)", )
 
+#no obvious outliers
 
 # Question 3c -------------------------------------------------------------
 
@@ -140,7 +145,7 @@ Mw_function(Mo_median)
 
 #Uncertainty:
 Mw_function(Mo_MAD)
-# 4.477134 Nm
+# plus or minus 4.477134 Nm
 
 
 
